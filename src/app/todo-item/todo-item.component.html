@@ -3,9 +3,12 @@
 <div >
   <p>
 
-    {{todo1.title}}
+    {{todo1.id}})   {{todo1.title}}
 
     <!--[4.1a]-->
     <button class="del" (click)="onDelete(todo1)">x</button>
+
+    <!--[5.1a]-->
+    <button (click)="onEdit(todo1)">Edit</button>
   </p>
 </div>
